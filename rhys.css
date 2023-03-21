@@ -1,0 +1,59 @@
+body{
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    padding: 30px;
+    margin: 200px;
+    padding-top: 40px;
+    padding-bottom: 40;
+    padding-right: 50px;
+    padding-left: 50;
+    background-color: white;
+}
+font-face{
+    font-family: Gasalt-Regular;
+    src:url(../fonts/Gasalt-Regular.tff);
+}
+.name{
+    font-family: Gasalt-Regular;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.bio{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile-picture{
+    clip-path: circle();
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-bottom: 30px;
+}
+.social-icon{
+width: 5%;
+}
+.social-link{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+}
+.social-link{
+    border: solid #1e8cd5eb 1px;
+    border-radius: 20px;
+    background-color: #1e8cd5eb;
+    color: white;
+}
